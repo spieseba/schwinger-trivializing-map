@@ -1,4 +1,4 @@
-# Pure U(1) gauge theory (a.k.a. quenched Schwinger model) in 2D
+# Pure U(1) gauge theory in 2D (a.k.a. quenched Schwinger model)
 
 This repo contains my Master thesis code from 2021, archived as-is. No tests or efficiency numbers are provided.
 The code depends on [https://github.com/lehner/gpt](https://github.com/lehner/gpt) and is meant to be read more than run.
