@@ -8,7 +8,8 @@ the HMC algorithm on a Wilson-flowed version of the gauge field. This field tran
 physics-informed normalizing flow, serving as a *trivializing map*. The idea is to make the sampling distribution *trivial* 
 to reduce autocorrelations and topological freezing near the continuum limit.
 
-All other scripts serve to establish baseline simulations (e.g. `hmc.py` is the plain-HMC baseline) or define the measured observables.
+All other scripts serve to establish baseline simulations (e.g. `hmc.py` is the plain-HMC baseline), run simulations,
+or define the measured observables.
 
 ## Running it
 
