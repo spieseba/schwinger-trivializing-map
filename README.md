@@ -1,9 +1,7 @@
 # Pure U(1) gauge theory (a.k.a. quenched Schwinger model) in 2D
 
-This repo contains my Master thesis code from 2021, archived as-is. There are no tests, license, or packaging.
+This repo contains my Master thesis code from 2021, archived as-is. No tests or efficiency numbers are provided.
 The code depends on [https://github.com/lehner/gpt](https://github.com/lehner/gpt) and is meant to be read more than run.
-
-The efficiency numbers are in the thesis, not in the repo.
 
 The interesting/relevant file is `wf_hmc.py`. It samples 2D U(1) gauge theory (the quenched Schwinger model) by running 
 the HMC algorithm on a Wilson-flowed version of the gauge field. This field transformation is essentially a 
