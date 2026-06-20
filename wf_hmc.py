@@ -30,7 +30,7 @@ class u1_wilsonflow_hmc:
         t("update")
         hamiltonian_prime = 0.5 * sum([ g.sum( P_prime[mu] * P_prime[mu] ) for mu in range(self.Nd) ]) + S(V_prime, beta, eps_wf, n_wf, mask, mask_rb)
         assert abs(hamiltonian_prime.imag) < 1e-15 # verify that hamiltonian is real
-        dp = np.exp(hamiltonian - hamiltonian_prime.real)
+        dp = np.exp(hamiltonian.real - hamiltonian_prime.real)
         rn = self.rng.uniform_real()
         accept = dp > rn
         if accept: 
